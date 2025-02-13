@@ -120,6 +120,15 @@ wheels = [
 ]
 
 [[package]]
+name = "json5"
+version = "0.10.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/85/3d/bbe62f3d0c05a689c711cff57b2e3ac3d3e526380adb7c781989f075115c/json5-0.10.0.tar.gz", hash = "sha256:e66941c8f0a02026943c52c2eb34ebeb2a6f819a0be05920a6f5243cd30fd559", size = 48202 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/aa/42/797895b952b682c3dafe23b1834507ee7f02f4d6299b65aaa61425763278/json5-0.10.0-py3-none-any.whl", hash = "sha256:19b23410220a7271e8377f81ba8aacba2fdd56947fbb137ee5977cbe1f5e8dfa", size = 34049 },
+]
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -161,12 +170,14 @@ name = "mcp-source-relation"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "json5" },
     { name = "mcp", extra = ["cli"] },
     { name = "toml" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "json5", specifier = ">=0.10.0" },
     { name = "mcp", extras = ["cli"], specifier = ">=1.2.1" },
     { name = "toml", specifier = ">=0.10.2" },
 ]

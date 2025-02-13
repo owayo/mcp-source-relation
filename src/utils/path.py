@@ -3,9 +3,9 @@ from typing import Optional, List
 
 
 def normalize_path(path: Path, base_dir: Path) -> str:
-    """パスを正規化してbase_dirからの相対パスとして返す"""
+    """パスを正規化して絶対パスとして返す"""
     try:
-        return str(path.relative_to(base_dir))
+        return str(path.absolute())
     except ValueError:
         return str(path)
 
