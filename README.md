@@ -4,6 +4,8 @@
 言語ごとのインポート文を解析し、ファイル間の依存関係を特定します。
 Claudeに組み込むことで、Claudeがプロジェクトの依存関係を素早く確認でき、関連するファイルの特定に役立ちます。
 
+<a href="https://glama.ai/mcp/servers/jmnzj9317i"><img width="380" height="200" src="https://glama.ai/mcp/servers/jmnzj9317i/badge" alt="Source Relation Server MCP server" /></a>
+
 ## 機能
 
 - 複数言語のインポート解析をサポート
