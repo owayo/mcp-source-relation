@@ -1,9 +1,9 @@
 import ast
 from pathlib import Path
-from typing import Set, Optional
+from typing import Optional, Set
 
-from .base import BaseAnalyzer
 from ..utils.path import search_in_path
+from .base import BaseAnalyzer
 
 
 class PythonAnalyzer(BaseAnalyzer):

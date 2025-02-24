@@ -1,10 +1,10 @@
 from pathlib import Path
 from typing import Dict, List, Set
 
-from .analyzers.typescript import TypeScriptAnalyzer
 from .analyzers.python import PythonAnalyzer
 from .analyzers.ruby import RubyAnalyzer
 from .analyzers.rust import RustAnalyzer
+from .analyzers.typescript import TypeScriptAnalyzer
 
 
 class SourceAnalyzer:

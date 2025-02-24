@@ -1,8 +1,9 @@
 import json
-import json5
 import re
 from pathlib import Path
 from typing import Dict, List, Optional
+
+import json5
 
 
 class TypeScriptConfig:

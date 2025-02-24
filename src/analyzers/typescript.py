@@ -2,8 +2,8 @@ import re
 from pathlib import Path
 from typing import Set
 
-from .base import BaseAnalyzer
 from ..configs.typescript import TypeScriptConfig
+from .base import BaseAnalyzer
 
 
 class TypeScriptAnalyzer(BaseAnalyzer):

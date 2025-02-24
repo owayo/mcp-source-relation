@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Optional, List
+from typing import List, Optional
 
 
 def normalize_path(path: Path, base_dir: Path) -> str:

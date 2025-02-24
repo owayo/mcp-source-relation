@@ -2,8 +2,8 @@ import re
 from pathlib import Path
 from typing import Set
 
-from .base import BaseAnalyzer
 from ..utils.path import search_in_path
+from .base import BaseAnalyzer
 
 
 class RubyAnalyzer(BaseAnalyzer):
