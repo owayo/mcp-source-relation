@@ -25,7 +25,6 @@ class TypeScriptConfig:
             - パース時のエラーはログに記録
         """
         if not self.config_file.exists():
-            print(f"Warning: {self.config_file} not found. Using default settings.")
             return
 
         try:
